@@ -1,0 +1,111 @@
+.mg-card__vc {
+  max-width: 25rem;
+}
+.mg-card__hc {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 1fr auto;
+  background: #ffffff;
+  color: #101010;
+}
+@media (min-width: 31.25em) {
+  .mg-card__hc {
+    grid-template-columns: 160px repeat(2, 1fr);
+    grid-template-rows: 1fr auto;
+  }
+}
+@media (min-width: 50em) {
+  .mg-card__hc {
+    grid-template-columns: 300px repeat(2, 1fr);
+  }
+}
+@media (min-width: 59em) {
+  .mg-card__hc {
+    grid-template-columns: 330px repeat(2, 1fr);
+  }
+}
+.mg-card__visual {
+  background-color: #0071d2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.mg-card__image {
+  width: 100%;
+  height: 100%;
+}
+.mg-card__share {
+  display: inline-block;
+  position: absolute;
+  padding: 0.56em;
+  cursor: pointer;
+}
+.mg-card__label {
+  padding: 0.3em 0.5em;
+  margin-right: 0.5em;
+  background: rgb(230, 230, 230);
+  border-radius: 0.3em;
+  font-size: 0.85em;
+  color: #0071d2;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.mg-card__label:hover {
+  background: #eef0f7;
+}
+.mg-card__label--active {
+  background: #d4d4d4;
+  font-weight: bold;
+}
+.mg-card__content {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+@media (min-width: 31.25em) {
+  .mg-card__content {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+}
+.mg-card__title {
+  padding-top: 1.5em;
+}
+.mg-card__title a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #005aaa;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.mg-card__title a:hover {
+  background: #2dabff;
+}
+.mg-card__title a.active {
+  background: #d4d4d4;
+  font-weight: bold;
+}
+.mg-card__text {
+  line-height: 1.2em;
+}
+.mg-card__text-link {
+  cursor: pointer;
+}
+.mg-card__text-link:hover {
+  background: #eef0f7;
+}
+.mg-card__button {
+  background: #0071d2;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+.mg-card__button:hover {
+  background: #2dabff;
+}

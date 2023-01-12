@@ -1,0 +1,48 @@
+<article class="mg-card">
+
+        <div class="mg-card__top">
+            <img  class="mg-card__top-image" src="imgs/card-image.png" />
+            <a href="link" class="mg-card__top-share_ink">share link</a>
+        </div>
+
+        <div class="mg-card__content">
+
+            <a href="link" class="mg-card__content-label">Label</a>
+
+            <header>
+                <p class="mg-card__content-title"><a href="link">Title in large size</a></p>
+            <header>
+
+            <p class="mg-card__content-text">
+                Text in body style Climate change is a global health emergency, with impacts felt most acutely 
+                by vulnerable populaPations and communities. This paper 	
+                explores health risks from climate change in a global context, setting out key risks and actions
+            </p>
+
+            <a class="mg-card__content-button">Primary link as button</a>
+
+        </div>
+
+    </article>
+
+    <article class="mg-card">
+
+        <img  class="mg-card__image" src="imgs/card-image.png" />
+        <a href="link" class="mg-card__share_link">share text</a>
+
+        <a href="link" class="mg-card__label">Label</a>
+
+        <header>
+            <p class="mg-card__title"><a href="link">Title in large size</a></p>
+        <header>
+
+        <p class="mg-card__text">
+            Text in body style Climate change is a global health emergency, with impacts felt most acutely 
+            by vulnerable populaPations and communities. This paper 	
+            explores health risks from climate change in a global context, setting out key risks and actions
+        </p>
+
+        <a class="mg-card__button">Primary link as button</a>
+
+
+    </article>
