@@ -1,16 +1,6 @@
 .mg-hero {
   display: grid;
 }
-@media (max-width: 31.25em) {
-  .mg-hero {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 50em) {
-  .mg-hero {
-    grid-template-columns: 1fr;
-  }
-}
 .mg-hero__overlay {
   background-color: #fff;
   width: -webkit-max-content;
@@ -23,14 +13,12 @@
   .mg-hero__overlay {
     margin-left: 0;
     background-color: darkgray;
-    margin-right: 0;
   }
 }
 @media (max-width: 50em) {
   .mg-hero__overlay {
     margin-left: 0;
     background-color: darkgray;
-    margin-right: 0;
   }
 }
 .mg-hero__overlay.child {
@@ -45,7 +33,6 @@
     margin-left: 0;
     background-color: darkgray;
     margin-bottom: 0;
-    margin-right: 0;
   }
 }
 @media (max-width: 50em) {
@@ -53,7 +40,6 @@
     margin-left: 0;
     background-color: darkgray;
     margin-bottom: 0;
-    margin-right: 0;
   }
 }
 .mg-hero__content {

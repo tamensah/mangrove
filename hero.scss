@@ -3,16 +3,6 @@
 .mg-hero {
 
     display: grid;
-    //Media queries
-
-
-    @media (max-width: 31.25em){
-        grid-template-columns: 1fr;
-    }
-
-    @media (max-width: 50em){
-        grid-template-columns: 1fr;
-    }
 
     &__overlay{
         background-color: #fff;
@@ -23,13 +13,11 @@
         @media (max-width: 31.25em){
             margin-left: 0;
             background-color: darkgray;
-            margin-right: 0;
         }
     
         @media (max-width: 50em){
             margin-left: 0;
             background-color: darkgray;
-            margin-right: 0;
         }
 
         &.child {
@@ -44,14 +32,12 @@
                 margin-left: 0;
                 background-color: darkgray;
                 margin-bottom: 0;
-                margin-right: 0;
             }
         
             @media (max-width: 50em){
                 margin-left: 0;
                 background-color: darkgray;
                 margin-bottom: 0;
-                margin-right: 0;
             }
         }
     }
