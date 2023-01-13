@@ -9,69 +9,79 @@
     <link rel="stylesheet" href="hero.css">
 </head>
 <body>
+
+    <nav>
+        <a href="index.html" class="mg-hero__button mg-hero__button-primary">GoTo CARD component</a>
+    </nav>
     
-    <h2>VERTICAL CARD</h2>
-    <article class="mg-hero">
-        <div class="mg-card__vc">  
+    <h2>HERO MAIN (The Parent kitchen sink)</h2>
 
-            <div class="mg-card__visual">
-                <img class="mg-card__image" src="imgs/card-image.png" alt="card image"/>
-                <a href="link" class="mg-card__share">Social Share Button</a>
-            </div>
+    <section class="mg-hero" style="background-image:url('/imgs/hero_background.png')">
+        
+        <div class="mg-hero__overlay">  
 
-            <div class="mg-card__content">
+            <article class="mg-hero__content">
 
-                <div class="mg-card__meta">
-                    <a href="link" class="mg-card__label mg-card__label--active">Label1</a>
-                    <a href="link" class="mg-card__label mg-card__label--active">Label2</a>
+                <div class="mg-hero__meta">
+                    <a href="link" class="mg-hero__label">Label in medium size</a>
                 </div>
 
-                <header class="mg-card__title">
-                    <a href="link">Title in large size</a>
+                <header class="mg-hero__title">
+                    <a href="#" class="text-xxl">Text in xxl large size</a>
                 </header>
 
-                <p class="mg-card__text">
-                    Text in body style Climate change is a <a href="#" class="mg-card__text-link">global health emergency</a>, with impacts felt most acutely by vulnerable populaPations and communities. This paper explores health risks from climate change in a global context, setting out key risks anactions
-                </p>
-
-                <a href="link" class="mg-card__button">Primary link as button</a>
-
-            </div>
-        </div>    
-    </article>
-
-    <hr/>
-
-    <h2>HORIZONTAL CARD</h2>
-    <article class="mg-card">
-
-        <div class="mg-card__hc">  
-            <div class="mg-card__visual">
-                <img class="mg-card__image" src="imgs/card-image.png" alt="card image"/>
-                <a href="link" class="mg-card__share">Social Share Button</a>
-            </div>
-
-            <div class="mg-card__content">
-
-                <div class="mg-card__meta">
-                    <a href="link" class="mg-card__label mg-card__label--active">Label1</a>
-                    <a href="link" class="mg-card__label mg-card__label--active">Label2</a>
+                <div class="mg-hero__subtitle">Blurb in large size</div>
+                
+                <div class="mg-hero__meta meta-detail">
+                    <a href="link" class="mg-hero__label detail">Detail label: Detail</a>
+                    <a href="link" class="mg-hero__label detail">Detail label: Detail</a>
                 </div>
 
-                <header class="mg-card__title">
-                    <a href="link">Title in large size</a>
+                <div class="mg-hero__buttons">
+                    <a href="link" class="mg-hero__button mg-hero__button-primary">Primary link as button</a>
+                    <a href="link" class="mg-hero__button mg-hero__button-secondary">Secondary link as button</a>
+                    <a href="link" class="mg-hero__button mg-hero__button-tertiary">Tertiary link as button</a>
+                </div>
+
+            </article>
+        
+        </div>  
+        
+    </section>
+
+
+    
+
+
+    <br/>
+
+    <h2>HERO SUB (Child kitchen sink)</h2>
+
+    <section class="mg-hero" style="background-image:url('/imgs/hero_background.png')">
+        
+        <div class="mg-hero__overlay child">  
+
+            <article class="mg-hero__content">
+
+                <div class="mg-hero__meta">
+                    <a href="link" class="mg-hero__label">Label or breadcrumb (default label size)</a>
+                </div>
+
+                <header class="mg-hero__title">
+                    <a href="#" class="text-xl">Text in xl large size</a>
                 </header>
 
-                <p class="mg-card__text">
-                    Text in body style Climate change is a <a href="#" class="mg-card__text-link">global health emergency</a>, with impacts felt most acutely by vulnerable populations and communities. This paper explores health risks from climate change in a global context, setting out key risks anactions
-                </p>
+                <div class="mg-hero__subtitle">Blurb in large size</div>
 
-                <a href="link" class="mg-card__button">Primary link as button</a>
+                <div class="mg-hero__buttons">
+                    <a href="link" class="mg-hero__button mg-hero__button-primary">Primary link as button</a>
+                </div>
 
-            </div>
-        </div>   
-
-    </article>
+            </article>
+        
+        </div>  
+        
+    </section>
 
 </body>
 </body>

@@ -51,13 +51,6 @@
   display: inline-block;
   cursor: pointer;
 }
-.mg-card__label:hover {
-  background: #eef0f7;
-}
-.mg-card__label--active {
-  background: #d4d4d4;
-  font-weight: bold;
-}
 .mg-card__content {
   grid-column: 1/3;
   grid-row: 2/3;
@@ -81,9 +74,6 @@
   display: inline-block;
   cursor: pointer;
 }
-.mg-card__title a:hover {
-  background: #2dabff;
-}
 .mg-card__title a.active {
   background: #d4d4d4;
   font-weight: bold;
@@ -102,10 +92,40 @@
   color: white;
   text-decoration: none;
   padding: 0.5em 1em;
-  border-radius: 0.5em;
   display: inline-block;
   margin-top: 0.5em;
 }
-.mg-card__button:hover {
-  background: #2dabff;
+
+.mg-card__title a::after {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition-duration: 125ms;
+  transition-property: box-shadow;
+  transition-timing-function: ease-in-out;
+  z-index: 100;
+}
+
+.mg-card {
+  position: relative;
+  display: inline-block;
+}
+
+.mg-card__label,
+.mg-card__text-link,
+.mg-card__button {
+  position: relative;
+  z-index: 101;
+}
+
+.mg-card__share {
+  z-index: 101;
+}
+
+.mg-card__label:hover,
+.mg-card__text-link:hover {
+  text-decoration: underline;
 }

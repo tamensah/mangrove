@@ -62,14 +62,14 @@
         display: inline-block;
         cursor: pointer;
 
-        &:hover {
-            background: #eef0f7;
-        }
+        // &:hover {
+        //     background: #eef0f7;
+        // }
 
-        &--active {
-            background: #d4d4d4;
-            font-weight: bold;
-        }
+        // &--active {
+        //     background: #d4d4d4;
+        //     font-weight: bold;
+        // }
     }
 
     &__content {
@@ -96,9 +96,9 @@
             display: inline-block;
             cursor: pointer;
 
-            &:hover {
-                background: #2dabff;
-            }
+            // &:hover {
+            //     background: #2dabff;
+            // }
     
             &.active {
                 background: #d4d4d4;
@@ -126,14 +126,51 @@
         color: white;
         text-decoration: none;
         padding: .5em 1em;
-        border-radius: .5em;
+        // border-radius: .5em;
         display: inline-block;
         margin-top: .5em;
 
-        &:hover {
-            background:#2dabff;
-        }
+        // &:hover {
+        //     background:#2dabff;
+        // }
     }
 
 
 } //END of CARD
+
+//Accessible CARD CSS RULES
+
+.mg-card__title a::after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition-duration: 125ms;
+    transition-duration: 125ms;
+    -webkit-transition-property: -webkit-box-shadow;
+    transition-property: -webkit-box-shadow;
+    transition-property: box-shadow;
+    transition-property: box-shadow, -webkit-box-shadow;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    z-index: 100;
+}
+.mg-card {
+    position: relative;
+    display: inline-block;
+}
+.mg-card__label,
+.mg-card__text-link,
+.mg-card__button {
+    position: relative;
+    z-index: 101;
+}
+.mg-card__share {
+    z-index: 101;
+}
+.mg-card__label:hover,
+.mg-card__text-link:hover {
+    text-decoration: underline;
+}
