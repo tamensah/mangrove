@@ -7,11 +7,11 @@
 
 
     @media (max-width: 31.25em) {
-        margin-right: 5px;
+        max-width: fit-content;
     }
 
     @media (max-width: 50em) {
-        margin-right: 5px;
+        max-width: fit-content;
     }
 
     &__overlay{

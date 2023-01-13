@@ -3,12 +3,16 @@
 }
 @media (max-width: 31.25em) {
   .mg-hero {
-    margin-right: 5px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
   }
 }
 @media (max-width: 50em) {
   .mg-hero {
-    margin-right: 5px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
   }
 }
 .mg-hero__overlay {
