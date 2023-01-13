@@ -3,12 +3,12 @@
 }
 @media (max-width: 31.25em) {
   .mg-hero {
-    overflow: hidden;
+    margin-right: 5px;
   }
 }
 @media (max-width: 50em) {
   .mg-hero {
-    overflow: hidden;
+    margin-right: 5px;
   }
 }
 .mg-hero__overlay {
