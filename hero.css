@@ -23,12 +23,14 @@
   .mg-hero__overlay {
     margin-left: 0;
     background-color: darkgray;
+    margin-right: 0;
   }
 }
 @media (max-width: 50em) {
   .mg-hero__overlay {
     margin-left: 0;
     background-color: darkgray;
+    margin-right: 0;
   }
 }
 .mg-hero__overlay.child {
@@ -42,6 +44,8 @@
   .mg-hero__overlay.child {
     margin-left: 0;
     background-color: darkgray;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 }
 @media (max-width: 50em) {
@@ -49,6 +53,7 @@
     margin-left: 0;
     background-color: darkgray;
     margin-bottom: 0;
+    margin-right: 0;
   }
 }
 .mg-hero__content {

@@ -23,11 +23,13 @@
         @media (max-width: 31.25em){
             margin-left: 0;
             background-color: darkgray;
+            margin-right: 0;
         }
     
         @media (max-width: 50em){
             margin-left: 0;
             background-color: darkgray;
+            margin-right: 0;
         }
 
         &.child {
@@ -41,12 +43,15 @@
             @media (max-width: 31.25em){
                 margin-left: 0;
                 background-color: darkgray;
+                margin-bottom: 0;
+                margin-right: 0;
             }
         
             @media (max-width: 50em){
                 margin-left: 0;
                 background-color: darkgray;
                 margin-bottom: 0;
+                margin-right: 0;
             }
         }
     }
