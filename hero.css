@@ -1,6 +1,16 @@
 .mg-hero {
   display: grid;
 }
+@media (max-width: 31.25em) {
+  .mg-hero {
+    overflow: hidden;
+  }
+}
+@media (max-width: 50em) {
+  .mg-hero {
+    overflow: hidden;
+  }
+}
 .mg-hero__overlay {
   background-color: #fff;
   width: -webkit-max-content;
