@@ -3,8 +3,13 @@
 .mg-hero {
 
     display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 100vw;
+    margin-left:calc(50% - (50vw) );
+    overflow-x: hidden;
+    
     //Media queries
-
 
     @media (max-width: 31.25em) {
         max-width: fit-content;

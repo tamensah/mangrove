@@ -1,0 +1,61 @@
+.mg-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "visual" "content";
+  grid-gap: 16px;
+}
+.mg-card .mg-card__visual {
+  grid-area: visual;
+}
+.mg-card .mg-card__visual img {
+  width: 100%;
+}
+.mg-card .mg-card__visual .mg-card__share {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.mg-card .mg-card__content {
+  grid-area: content;
+}
+.mg-card .mg-card__content .mg-card__meta a.mg-card__label--active {
+  color: #00BFA5;
+}
+.mg-card .mg-card__content .mg-card__title a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.mg-card .mg-card__content .mg-card__text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+.mg-card .mg-card__content .mg-card__button {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #00BFA5;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.mg-card .mg-card__content .mg-card__button:hover {
+  background-color: #008c79;
+}
+@media (min-width: 600px) {
+  .mg-card {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "visual content";
+  }
+}
+@media (min-width: 900px) {
+  .mg-card {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "visual visual content";
+  }
+}
