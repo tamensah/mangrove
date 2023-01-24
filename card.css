@@ -78,14 +78,9 @@
   background: #d4d4d4;
   font-weight: bold;
 }
-.mg-card__text {
+.mg-card__summaryText {
   line-height: 1.2em;
-}
-.mg-card__text-link {
-  cursor: pointer;
-}
-.mg-card__text-link:hover {
-  background: #eef0f7;
+  padding-top: 1em;
 }
 .mg-card__button {
   background: #0071d2;
@@ -115,7 +110,6 @@
 }
 
 .mg-card__label,
-.mg-card__text-link,
 .mg-card__button {
   position: relative;
   z-index: 101;
@@ -125,7 +119,6 @@
   z-index: 101;
 }
 
-.mg-card__label:hover,
-.mg-card__text-link:hover {
+.mg-card__label:hover {
   text-decoration: underline;
 }

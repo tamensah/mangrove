@@ -108,17 +108,9 @@
 
     }
 
-    &__text {
+    &__summaryText {
         line-height: 1.2em;
-    }
-
-    &__text-link {
-        cursor: pointer;
-
-        &:hover {
-            background: #eef0f7;
-        }
-
+        padding-top: 1em;
     }
 
     &__button {
@@ -162,7 +154,6 @@
     display: inline-block;
 }
 .mg-card__label,
-.mg-card__text-link,
 .mg-card__button {
     position: relative;
     z-index: 101;
@@ -170,7 +161,6 @@
 .mg-card__share {
     z-index: 101;
 }
-.mg-card__label:hover,
-.mg-card__text-link:hover {
+.mg-card__label:hover {
     text-decoration: underline;
 }
