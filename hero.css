@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: relative;
-  width: 99vw;
-  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  margin: 0 calc(-50vw + 50%);
 }
 @media (max-width: 31.25em) {
   .mg-hero {

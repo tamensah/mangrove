@@ -82,6 +82,12 @@
   line-height: 1.2em;
   padding-top: 1em;
 }
+.mg-card__text-link {
+  color: #005aaa;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
 .mg-card__button {
   background: #0071d2;
   color: white;
@@ -119,6 +125,7 @@
   z-index: 101;
 }
 
-.mg-card__label:hover {
+.mg-card__label,
+.mg-card__text-link:hover {
   text-decoration: underline;
 }

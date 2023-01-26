@@ -113,6 +113,13 @@
         padding-top: 1em;
     }
 
+    &__text-link {
+        color: #005aaa;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
     &__button {
         background: #0071d2;
         color: white;
@@ -161,6 +168,7 @@
 .mg-card__share {
     z-index: 101;
 }
-.mg-card__label:hover {
+.mg-card__label,
+.mg-card__text-link:hover {
     text-decoration: underline;
 }
